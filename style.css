@@ -1,0 +1,93 @@
+body {
+    background-image: url('https://images.unsplash.com/photo-1558486012-817176f84c6d?q=80&w=1804&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    background-image: linear-gradient(rgba(172, 187, 231, 0.3), rgba(41, 120, 231, 0.318));
+    min-height: 70vh;
+    max-width: 60vh;
+    margin-top: 10%;
+    border-radius: 15px;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#inp {
+    background-image: linear-gradient(rgba(172, 187, 231, 0.3), rgba(6, 90, 235, 0.6));
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(172, 187, 231, 0.3);
+    box-shadow: 5px 5px 5px  rgba(195, 204, 237, 0.6);
+    color: #fff;
+    font-family: 'Courier Prime', monospace;
+}
+
+#inp:focus {
+    border: 2px solid rgba(172, 187, 231, 0.3);
+    padding: 12px;
+}
+
+#when-where {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#city {
+    font-size: 50px;
+    color: #fff;
+    font-family: 'Courier Prime', monospace;
+    text-shadow: 2px 2px 2px rgb(53, 92, 171);
+}
+
+#date {
+    font-size: 24px;
+    color: #fff;
+    font-family: 'Courier Prime', monospace;
+}
+
+#now {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+#temperature {
+    font-size: 110px;
+    font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+    text-shadow: 2px 2px rgb(53, 92, 171);
+    margin: 0;
+}
+
+#feelsLike {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+}
+
+#conditions {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+}
+
+#varation {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Courier Prime', monospace;
+}
